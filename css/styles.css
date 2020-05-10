@@ -10,7 +10,7 @@ body {
     background-attachment: fixed;
     font-family: "Excalibur";
     color: white;
-    text-shadow: 4px 4px 8px #000000;
+    text-shadow: 5px 5px 10px #000000;
 }
 
 .titulo {
@@ -46,26 +46,20 @@ body {
     margin: 0 auto 0 auto;
 }
 
-.madrid {
-    font-size: 8vw;
-    text-align: center;
-    margin: 1vh auto 0 auto;
-}
-
 .photo-box-ojo {
-    margin-top: 2vh;
+    margin-top: 3vh;
     display: flex;
     justify-content: center;
 }
 
 .photo-box-ojo img {
     object-fit: cover;
-    height: 18vw;
-    width: 18vw;
+    height: 20vw;
+    width: 20vw;
 }
 
 .mas-info {
-    margin-top: 2vh;
+    margin-top: 3vh;
     font-size: 7vw;
     text-align: center;
 }
