@@ -66,6 +66,14 @@
         width: 16vw;
     }
     
+    .rot-eye {
+        -webkit-animation: rotation 2s infinite linear;
+    }
+    
+    .inverse-rot-eye {
+        -webkit-animation: inv-rotation 2s infinite linear;
+    }
+    
     .mas-info {
         margin-top: 2vh;
         font-size: 7vw;
@@ -131,5 +139,23 @@
             object-fit: cover;
             height: 6vw;
             width: 6vw;
+        }
+    }
+    
+    @-webkit-keyframes rotation {
+        from {
+            -webkit-transform: rotate(0deg);
+        }
+        to {
+            -webkit-transform: rotate(359deg);
+        }
+    }
+    
+    @-webkit-keyframes inv-rotation {
+        from {
+            -webkit-transform: rotate(0deg);
+        }
+        to {
+            -webkit-transform: rotate(-359deg);
         }
     }
