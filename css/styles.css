@@ -1,67 +1,81 @@
-@font-face {
-    font-family: "Excalibur";
-    src: url("../fonts/Excalibur\ Nouveau.ttf");
-}
-
-body {
-    background-image: url("../media/galaxy.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: "Excalibur";
-    color: white;
-    text-shadow: 5px 5px 10px #000000;
-}
-
-.titulo {
-    width: 100%;
-    font-size: 10vw;
-    text-align: center;
-    margin: 2vh auto 0 auto;
-}
-
-.linea {
-    border: 2px solid white;
-    margin: 2vh 18vw;
-}
-
-.photo-box-nestor {
-    display: flex;
-    justify-content: center;
-}
-
-.photo-box-nestor img {
-    object-fit: cover;
-    height: 50vh;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-}
-
-.fecha {
-    font-size: 8vw;
-    text-align: center;
-    margin: 0 auto 0 auto;
-}
-
-.photo-box-ojo {
-    margin-top: 3vh;
-    display: flex;
-    justify-content: center;
-}
-
-.photo-box-ojo img {
-    object-fit: cover;
-    height: 20vw;
-    width: 20vw;
-}
-
-.mas-info {
-    margin-top: 3vh;
-    font-size: 7vw;
-    text-align: center;
-}
-
-@media (max-width: 480px) {}
+    @font-face {
+        font-family: "Excalibur";
+        src: url("../fonts/Excalibur\ Nouveau.ttf");
+    }
+    
+    body {
+        background-image: url("../media/galaxy.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: "Excalibur";
+        color: white;
+        text-shadow: 5px 5px 10px #000000;
+    }
+    
+    .titulo {
+        width: 100%;
+        font-size: 10vw;
+        text-align: center;
+        margin: 2vh auto 0 auto;
+    }
+    
+    .linea {
+        border: 2px solid white;
+        margin: 2vh 18vw;
+    }
+    
+    .photo-box-nestor {
+        margin-top: -2vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .photo-box-nestor img {
+        object-fit: cover;
+        height: 50vh;
+    }
+    
+    .fecha {
+        font-size: 8vw;
+        text-align: center;
+        margin: 0 auto 0 auto;
+    }
+    
+    .photo-box-ojo {
+        margin-top: 2vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .photo-box-ojo img {
+        object-fit: cover;
+        height: 20vw;
+        width: 20vw;
+    }
+    
+    .mas-info {
+        margin-top: 2vh;
+        font-size: 7vw;
+        text-align: center;
+    }
+    
+    @media (min-width: 680px) {
+        .titulo {
+            font-size: 9vw;
+        }
+        .linea {
+            margin: 1vh 22vw;
+        }
+        .photo-box-nestor {
+            margin-top: -1vh;
+        }
+        .fecha {
+            font-size: 6vw;
+        }
+        .mas-info {
+            font-size: 5vw;
+        }
+    }
+    
+    @media (min-width: 1280px) {}
